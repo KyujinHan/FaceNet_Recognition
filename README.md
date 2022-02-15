@@ -76,6 +76,7 @@ https://docs.google.com/presentation/d/1G5pnNO2YNUXhN613R957iZPUQCZAFusI/edit#sl
 +) 한국인을 대상으로 했을 때 성능도 높이기 위해 K-face 데이터를 신청했지만 거절당해서 아쉬운 상황이 발생했었다.   
 +) Transfer-learning을 접목한 FaceNet 모델은 해당 Github 저장소에 올리지 않았다. 추후에 기회가 된다면 정리해서 올릴 예정이다.  
 +) 처음에는 ResNet을 이용하여 간단한 테스트를 진행하였다.  
++) 우리는 false_image라는 list를 만들어서 만약 안면인식을 진행했을 때 잘못 예측되었다고 사용자가 판단한 이미지라면, 다시 그 이미지를 사용하지 않도록 만들었다.  
 +) 사실 Sota Model에서 lfw분야에서 1등을 차지하고 있는 모델은 VarGNet이였다. (2021년 상반기 기준) 그래서 해당 모델을 사용하고 싶었으나 해당 모델은 mxnet 프레임워크로만 구현되어 있어서 사용하기에 어려움을 겪었다.  
 
 
