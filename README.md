@@ -20,11 +20,11 @@
 2. test.py: 프로젝트 스크립트 파일 (전체적인 파일)  
 3. FaceDetector.py: 회원가입(임의) 절차와 사람들의 사진을 찍고 embedding값을 저장하는 파일  
 4. emotion_detector.py: 감정분석 파일  
-6. df_all_encoder_10.csv: labeling 되어있는 csv 파일. 사람들이 새로 입력되거나, 아니면 학습률을 높이기 위해 사진을 추가할 때 csv에 추가된다.  
-7. embedding_all_128_L2.npy: numpy 파일로 128차원의 임베딩 값을 가지고 있는 파일이다. L2는 Normalization을 의미한다.  
-8. dataframe_embedding.py: numpy 파일과 .csv파일 그리고 lfw_over_10 폴더 안에는 전부 동일한 수치로 데이터(embeddig or 사진)가 들어있다. 해당 파일로 제대로 임베딩 값과 사진, 그리고 데이터가 저장되었는지 확인한다.  
-9. video_detector: cv2를 이용해 화면으로 사진을 받아드리는데 참고한 .py파일. (출처는 잊어버렸음..ㅠㅠ github에서 찾았음)  
-10. inception_resnet_v1.py & facenet_weights.h5: FaceNet을 Pre-trained model을 이용하였기에 사용한 파일들.  
+5. df_all_encoder_10.csv: labeling 되어있는 csv 파일. 사람들이 새로 입력되거나, 아니면 학습률을 높이기 위해 사진을 추가할 때 csv에 추가된다.  
+6. embedding_all_128_L2.npy: numpy 파일로 128차원의 임베딩 값을 가지고 있는 파일이다. L2는 Normalization을 의미한다.  
+7. dataframe_embedding.py: numpy 파일과 .csv파일 그리고 lfw_over_10 폴더 안에는 전부 동일한 수치로 데이터(embeddig or 사진)가 들어있다. 해당 파일로 제대로 임베딩 값과 사진, 그리고 데이터가 저장되었는지 확인한다.  
+8. video_detector: cv2를 이용해 화면으로 사진을 받아드리는데 참고한 .py파일. (출처는 잊어버렸음..ㅠㅠ github에서 찾았음)  
+9. inception_resnet_v1.py & facenet_weights.h5: FaceNet을 Pre-trained model을 이용하였기에 사용한 파일들.  
 
 
 
