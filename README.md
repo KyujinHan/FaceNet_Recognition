@@ -71,7 +71,7 @@ https://docs.google.com/presentation/d/1G5pnNO2YNUXhN613R957iZPUQCZAFusI/edit#sl
 
 
 
-# 기타
+# 기타 TMI
 +) 또한 각 사람당 이미지의 기준을 높이면 높일수록 성능이 좋아졌지만, 데이터가 너무나 적어지는 상황도 발생하여서 매우 아쉬웠다.    
 +) 한국인을 대상으로 했을 때 성능도 높이기 위해 K-face 데이터를 신청했지만 거절당해서 아쉬운 상황이 발생했었다.   
 +) Transfer-learning을 접목한 FaceNet 모델은 해당 Github 저장소에 올리지 않았다. 추후에 기회가 된다면 정리해서 올릴 예정이다.  
