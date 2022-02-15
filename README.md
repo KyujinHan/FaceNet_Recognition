@@ -62,7 +62,7 @@ Embedding을 이용하지 않고 bottleneck-feature를 붙여 만든 Tranfer-lea
 # FaceNet 논문 발표 자료
 https://docs.google.com/presentation/d/1BWVNAI2qOzjwDZWSgNjEn8lnxPGBxg8s4E3W8aBsASg/edit   
 - FaceNet, 그리고 Face Detection 기술인 MTCNN과 FaceNet에 중요한 layer인 Inception(GoogleNet)에 대해 공부하고 발표한 자료이다.  
-+) 이 발표를 통해 논문의 중요성을 알았고, 이후 NLP, GAN, VIT를 공부할 때 논문을 무조건 찾아보고 읽게 되었다.   
++) 이 발표를 통해 논문의 중요성을 알았고, 이후 BERT, GAN, VIT를 공부할 때 논문을 무조건 찾아보고 읽게 되었다.   
 
 
 
