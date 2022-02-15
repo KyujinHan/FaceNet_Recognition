@@ -26,7 +26,7 @@ github 작성자: 한규진
 5. df_all_encoder_10.csv: labeling 되어있는 csv 파일. 사람들이 새로 입력되거나, 아니면 학습률을 높이기 위해 사진을 추가할 때 csv에 추가된다.  
 6. embedding_all_128_L2.npy: numpy 파일로 128차원의 임베딩 값을 가지고 있는 파일이다. L2는 Normalization을 의미한다.  
 7. dataframe_embedding.py: numpy 파일과 .csv파일 그리고 lfw_over_10 폴더 안에는 전부 동일한 수치로 데이터(embeddig or 사진)가 들어있다. 해당 파일로 제대로 임베딩 값과 사진, 그리고 데이터가 저장되었는지 확인한다.  
-8. video_detector: cv2를 이용해 화면으로 사진을 받아드리는데 참고한 .py파일. (출처는 잊어버렸음..ㅠㅠ github에서 찾았음)  
+8. video_detector: cv2를 이용해 화면으로 사진을 받아드리는데 참고한 .py파일. (출처는 기억이 안나고, github에서 찾았음)   
 9. inception_resnet_v1.py & facenet_weights.h5: FaceNet을 Pre-trained model을 이용하였기에 사용한 파일들.  
 
 
@@ -34,8 +34,8 @@ github 작성자: 한규진
 
 # 모델 설명
 우리는 FaceNet을 이용했다. 
-FaceNet의 Embedding를 통해서 "유클리드 거리"계산을 통해 사람과 사람간의 유사도를 계산했다.  
-카메라 구현 기능은 cv2를 활용하였고, 코드는 github에서 참고하여 만들었다.  
+FaceNet의 Embedding을 "유클리드 거리"계산을 통해 사람과 사람간의 유사도를 계산했다.  
+카메라 구현 기능은 cv2를 활용하였고, 해당 코드는 github에서 참고하여 만들었다.  
   
 또한 아직 DB를 접해보지 못했던 시기라 임의적으로 df_all_encoder.csv 파일을 만들어서 user의 이름과 label로 사진을 관리했고, FaceDetector.py을 통해 이미 labeling이 되어있는 사람인지 아닌지   확인을 하고, labeling이 안 되어있다면, 신규회원처럼 카메라로 사진의 이미지를 받아와 embedding을 만들고 기존의 데이터셋과 비교하어 사람을 매칭시킨다. (회원가입과 최대한 비슷하게 구현하기 위해 노력)  
 +) 여기서 더 나아가 DeepFace의 감정분석을 간단히 적용을 하여서, 사람이 누구이고, 그 사람의 감정이 어떠한지 알려주는 모델을 붙였다.  
